@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:background="@color/colorWhite"
+              tools:context=".MainActivity">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/entrance"
+        >
+
+        <Button
+            android:id="@+id/btnGoTo"
+            android:layout_width="345dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="670dp"
+            android:onClick="goTo"
+            android:padding="5dp"
+            android:text="@string/start_tour"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:background="@drawable/btn_round"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnGoToManualTour"
+            android:layout_width="345dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="890dp"
+            android:layout_marginTop="670dp"
+            android:padding="5dp"
+            android:text="@string/manual_tour"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:background="@drawable/btn_round"
+            android:textStyle="bold"
+            />
+
+        <!--<Button
+            android:id="@+id/btnGoToDeakinLaunchpad"
+            android:layout_width="205dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="1050dp"
+            android:layout_marginTop="190dp"
+            android:onClick="goToDeakinLaunchpad"
+            android:padding="5dp"
+            android:text="@string/deakin_launchpad"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:background="@drawable/btn_round"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnGoToTechnicalAdvisor"
+            android:layout_width="205dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="335dp"
+            android:layout_marginLeft="1050dp"
+            android:onClick="goToTechnicalAdvisor"
+            android:padding="5dp"
+            android:text="@string/technical_advisor"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:background="@drawable/btn_round"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnGoToOpenArea"
+            android:layout_width="205dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="1050dp"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/btn_round"
+            android:onClick="goToOpenArea"
+            android:padding="5dp"
+            android:text="@string/open_area"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:textStyle="bold" />-->
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

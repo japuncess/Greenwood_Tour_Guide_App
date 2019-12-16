@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+        >
+
+        <Button
+            android:id="@+id/btnGoToTechnicalAdvisor"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:onClick="goToTechnicalAdvisor"
+            android:padding="5dp"
+            android:text="@string/technical_advisor"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:background="@drawable/btn_round"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGoToDeakinLaunchpad"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="280dp"
+            android:onClick="goToDeakinLaunchpad"
+            android:padding="5dp"
+            android:text="@string/deakin_launchpad"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:background="@drawable/btn_round"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGoToOpenArea"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/btn_round"
+            android:onClick="goToOpenArea"
+            android:padding="5dp"
+            android:text="@string/open_area"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoToKitchen"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/btn_round"
+        android:onClick="goToKitchen"
+        android:padding="5dp"
+        android:text="@string/kitchen"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoToWorkspace"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/btn_round"
+        android:onClick="goToWorkspace"
+        android:padding="5dp"
+        android:text="@string/workspace"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoToDeakinStaffOffice"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/btn_round"
+        android:onClick="goToDeakinStaffOffice"
+        android:padding="5dp"
+        android:text="@string/deakin_staff_office"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoToToilets"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/btn_round"
+        android:onClick="goToToilets"
+        android:padding="5dp"
+        android:text="@string/toilets"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoToPrintArea"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/btn_round"
+        android:onClick="goToPrintArea"
+        android:padding="5dp"
+        android:text="@string/print_area"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEndTourSelectLocation"
+        android:layout_width="345dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="890dp"
+        android:layout_marginTop="670dp"
+        android:padding="5dp"
+        android:onClick="goToEntrance"
+        android:text="@string/end_tour"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:background="@drawable/btn_round"
+        android:textStyle="bold"
+        />
+
+        <RelativeLayout
+            android:layout_width="1000dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="660dp"
+            >
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="800dp"
+                android:id="@+id/ImageViewBetween"
+                android:src="@drawable/screen1"
+                />
+        </RelativeLayout>
+</RelativeLayout>

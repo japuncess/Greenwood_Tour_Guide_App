@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="enter_location">Please enter a location name</string>
+    <string name="save_location">Save Location</string>
+    <string name="go_to_location">Please enter location to go to</string>
+    <string name="go_to">Go to</string>
+    <string name="enter_speech">Please enter something to say</string>
+    <string name="speak">Speak</string>
+    <string name="follow_me">Follow Me</string>
+    <string name="saved_locations">Saved Locations</string>
+    <string name="show_contacts">Show Contacts</string>
+    <string name="stop_follow">Stop Follow</string>
+    <string name="start_tour">Start Greenwood Tour</string>
+    <string name="continue_tour">Continue Tour</string>
+    <string name="end_tour">End Tour</string>
+    <string name="manual_tour">Select Specific Location</string>
+
+    <string name="entrance">Entrance</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="workspace">Workspace</string>
+    <string name="deakin_launchpad">Deakin Launchpad</string>
+    <string name="deakin_staff_office">Deakin Staff Office</string>
+    <string name="open_area">Open Area</string>
+    <string name="toilets">Toilets</string>
+    <string name="print_area">Print Area</string>
+    <string name="technical_advisor">Technical Advisor</string>
+
+</resources>

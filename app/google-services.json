@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "848232308323",
+    "firebase_url": "https://face2-1459a.firebaseio.com",
+    "project_id": "face2-1459a",
+    "storage_bucket": "face2-1459a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848232308323:android:7e434a1663391fed986256",
+        "android_client_info": {
+          "package_name": "husaynhakeem.io.facedetectorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848232308323-rkgufh686ot9l40hf3q2kt73h2aubbea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCacGeinK1PZoFibi-n6OOhORUqsJl5ZVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848232308323-rkgufh686ot9l40hf3q2kt73h2aubbea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
