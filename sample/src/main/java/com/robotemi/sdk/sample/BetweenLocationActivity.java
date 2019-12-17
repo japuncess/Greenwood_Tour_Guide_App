@@ -103,6 +103,7 @@ public class BetweenLocationActivity extends AppCompatActivity implements
         String imageName = Data.LocationData.get(Locations.currentLocation).Image;
         int resID = res.getIdentifier(imageName , "drawable", getPackageName());
         imageView.setImageResource(resID);
+        robot.speak(TtsRequest.create("Tap the location you would like me to guide to.",true));
     }
 
     public void continueTour(View view) {

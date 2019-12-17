@@ -1,6 +1,12 @@
 package com.robotemi.sdk.sample;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Camera;
+import android.graphics.SurfaceTexture;
+import android.hardware.camera2.CameraCaptureSession;
+import android.hardware.camera2.CameraDevice;
+import android.hardware.camera2.CameraManager;
 import android.os.Handler;
 import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +20,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 import android.widget.Button;
 
@@ -35,7 +42,9 @@ import husaynhakeem.io.facedetector.models.Frame;
 import husaynhakeem.io.facedetector.models.Size;
 import kotlinx.android.synthetic.main.activity_main.*;
 */
+import android.view.TextureView;
 
+import org.w3c.dom.Text;
 
 import java.util.List;
 
@@ -115,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements
 
         robot = Robot.getInstance(); // get an instance of the robot in order to begin using its features.
 
-        Button btnOne = (Button)findViewById(R.id.btnGoToManualTour);
+        Button btnOne = findViewById(R.id.btnGoToManualTour);
         btnOne.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view) {
@@ -126,7 +135,6 @@ public class MainActivity extends AppCompatActivity implements
         });
     }
 
-
     /*
         goTo checks that the location sent is saved then goes to that location.
      */
@@ -136,26 +144,6 @@ public class MainActivity extends AppCompatActivity implements
         robot.speak(TtsRequest.create("I will now take you to the " + Data.LocationData.get(1).Name, true));
     }
 
-
-    /*public void goToDeakinLaunchpad(View view) {
-        Locations.currentLocation = 3;
-        robot.speak(TtsRequest.create("I will now take you to the " + Data.LocationData.get(3).Name, true));
-
-    }
-
-    public void goToTechnicalAdvisor(View view) {
-        Locations.currentLocation = 2;
-        robot.speak(TtsRequest.create("I will now take you to the " + Data.LocationData.get(2).Name, true));
-
-    }
-
-
-    public void goToOpenArea(View view) {
-        Locations.currentLocation = 5;
-        robot.speak(TtsRequest.create("I will now take you to the " + Data.LocationData.get(5).Name, true));
-    }
-
-*/
     /*
         Hiding keyboard after every button press
      */
