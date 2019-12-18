@@ -4,7 +4,12 @@
     android:layout_height="match_parent"
     android:background="@color/colorGreen"
         >
-
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorGreen2"
+        />
         <Button
             android:id="@+id/btnGoToTechnicalAdvisor"
             android:layout_width="200dp"
