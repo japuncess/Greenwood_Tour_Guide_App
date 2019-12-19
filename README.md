@@ -1,9 +1,18 @@
+*IMPORTANT*
+Temi Tour Guide App is located inside the "sample folder".
+
+facedetector folder is a facial recognition app that will be used to integrate with the Tour Guide App inside "sample" folder.
+
+
 temi SDK
 ========
 
 ![temi](temi.jpg)
 
 For more information please see [the website][1].
+
+Temi Tour Guide App is located inside the "sample folder".
+facedetector folder is a facial recognition app that will be used to integrate with the Tour Guide App inside "sample" folder.
 
 
 Download
